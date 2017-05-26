@@ -1,6 +1,12 @@
-var express = require('express'), mongoose = require('mongoose'), fs = require('fs'), http = require('http'),
-config = require('./config/config'), root = __dirname, app = express(), server = null;
-	
+var express = require('express');
+var mongoose = require('mongoose');
+var fs = require('fs');
+var http = require('http');
+var config = require('./config/config');
+var root = __dirname;
+var app = express();
+var server = null;
+
 // Configuration
 require('./config/db')(config);
 

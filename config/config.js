@@ -1,7 +1,7 @@
 var env = process.env.NODE_ENV || 'development';
 
 var config = {
-  port: 3000,
+  port: 3800,
   //db: 'mongodb://localhost/songs',
   db: 'mongodb://127.0.0.1:27017/employees_mean_poc',
   host: 'localhost'

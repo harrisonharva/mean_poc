@@ -16,7 +16,7 @@
     "Unit testing in MEAN Stack",
     "Build and deployment in MEAN Stack"
   ],
-  "author": "Infobeans",
+  "author": "Himesh",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.15.2",
